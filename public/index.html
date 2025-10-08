@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/arf.css"/>
+    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <title>Oblivion OSINT</title>
+  </head>
+
+  <body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h1>OSINT Framework</h1>
+        </div>
+        
+        <div class="sidebar-section">
+            <label for="search">Busca</label>
+            <input type="text" id="search" placeholder="Filtrar nós...">
+        </div>
+
+        <div class="sidebar-section">
+            <label>Tema</label>
+            <div style="display: flex; align-items: center;">
+                <span style="font-size: 13px; margin-right: 10px;">Claro</span>
+                <label class="switch">
+                    <input type="checkbox" id="themeToggle" checked>
+                    <span class="slider round"></span>
+                </label>
+                <span style="font-size: 13px; margin-left: 10px;">Escuro</span>
+            </div>
+        </div>
+        
+        <div class="sidebar-section legend">
+            <h3>Legenda</h3>
+            <p>(T) - Ferramenta local</p>
+            <p>(D) - Google Dork</p>
+            <p>(R) - Requer registro</p>
+            <p>(M) - Edição manual de URL</p>
+        </div>
+
+        <div class="sidebar-section notes">
+            <h3>Notas</h3>
+            <p>Framework focado em ferramentas e recursos OSINT gratuitos.</p>
+        </div>
+
+        <div class="sidebar-footer">
+            <p>Feedback e sugestões são bem-vindos!</p>
+            <a href="https://github.com/lockfale/osint-framework" target="_blank">GitHub</a> | 
+            <a href="https://twitter.com/jnordine" target="_blank">Twitter</a>
+        </div>
+    </div>
+
+    <div id="main-content">
+      </div>
+
+    <script src="js/arf.js"></script>
+  </body>
+</html>
