@@ -38,4 +38,4 @@ Se você gostou do projeto e quer acompanhar futuras atualizações ou outros tr
 
 Encontrou um bug ou tem uma sugestão para uma nova ferramenta? Sinta-se à vontade para abrir uma "Issue" no repositório deste projeto no GitHub.
 
-* **Reportar um Problema ou Sugerir uma Ferramenta:** [https://github.com/SEU-USUARIO-GITHUB/NOME-DO-SEU-REPOSITORIO/issues](https://github.com/SEU-USUARIO-GITHUB/NOME-DO-SEU-REPOSITORIO/issues)
+* **Reportar um Problema ou Sugerir uma Ferramenta:** [https://github.com/Darkghostly/OSINT-Tools/issues](https://github.com/Darkghostly/OSINT-Tools/issues)
