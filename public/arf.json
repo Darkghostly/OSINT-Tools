@@ -1,24 +1,30 @@
 {
   "name": "OSINT Framework",
   "type": "folder",
+  "description": "Nó raiz do Oblivion OSINT Framework.",
   "children": [
   {
     "name": "Username",
     "type": "folder",
+    "description": "Ferramentas para investigar nomes de usuário em diversas plataformas.",
     "children": [
     {
       "name": "Username Search Engines",
       "type": "folder",
+      
+      "description": "Motores de busca especializados em encontrar perfis associados a um nome de usuário específico.",
       "children": [
       {
         "name": "Sylva Identity Discovery (T)",
         "type": "url",
-        "url": "https://sylva.pfeister.dev/"
+        "url": "https://sylva.pfeister.dev/",
+        "description": "Ferramenta local (requer instalação) para descoberta de identidade a partir de nomes de usuário e emails."
       },
       {
         "name": "Sherlock (T)",
         "type": "url",
         "url": "https://github.com/sherlock-project/sherlock"
+
       },
       {
         "name": "WhatsMyName",
@@ -6820,4 +6826,3 @@
     }]
   }]
 }
-

@@ -9,51 +9,65 @@
   </head>
 
   <body>
-    <div class="sidebar">
-        <div class="sidebar-header">
-            <h1>OSINT Framework</h1>
-        </div>
-        
-        <div class="sidebar-section">
-            <label for="search">Busca</label>
-            <input type="text" id="search" placeholder="Filtrar nós...">
-        </div>
-
-        <div class="sidebar-section">
-            <label>Tema</label>
-            <div style="display: flex; align-items: center;">
-                <span style="font-size: 13px; margin-right: 10px;">Claro</span>
-                <label class="switch">
-                    <input type="checkbox" id="themeToggle" checked>
-                    <span class="slider round"></span>
-                </label>
-                <span style="font-size: 13px; margin-left: 10px;">Escuro</span>
-            </div>
-        </div>
-        
-        <div class="sidebar-section legend">
-            <h3>Legenda</h3>
-            <p>(T) - Ferramenta local</p>
-            <p>(D) - Google Dork</p>
-            <p>(R) - Requer registro</p>
-            <p>(M) - Edição manual de URL</p>
-        </div>
-
-        <div class="sidebar-section notes">
-            <h3>Notas</h3>
-            <p>Framework focado em ferramentas e recursos OSINT gratuitos.</p>
-        </div>
-
-        <div class="sidebar-footer">
-            <p>Feedback e sugestões são bem-vindos!</p>
-            <a href="https://github.com/lockfale/osint-framework" target="_blank">GitHub</a> | 
-            <a href="https://twitter.com/jnordine" target="_blank">Twitter</a>
-        </div>
-    </div>
-
-    <div id="main-content">
+  <div class="sidebar">
+      <div class="sidebar-header">
+          <h1>Oblivion OSINT</h1>
+      </div>
+      
+      <div class="sidebar-section">
+          <label for="search">Busca</label>
+          <input type="text" id="search" placeholder="Filtrar nós...">
       </div>
 
+      <div class="sidebar-section">
+          <label>Tema</label>
+          <div style="display: flex; align-items: center;">
+              <span style="font-size: 13px; margin-right: 10px;">Claro</span>
+              <label class="switch">
+                  <input type="checkbox" id="themeToggle" checked>
+                  <span class="slider round"></span>
+              </label>
+              <span style="font-size: 13px; margin-left: 10px;">Escuro</span>
+          </div>
+      </div>
+      
+      <div class="sidebar-section legend">
+          <h3>Legenda</h3>
+          <p>(T) - Ferramenta local</p>
+          <p>(D) - Google Dork</p>
+          <p>(R) - Requer registro</p>
+          <p>(M) - Edição manual de URL</p>
+      </div>
+
+      <div class="sidebar-section notes">
+          <h3>Notas</h3>
+          <p>Framework focado em ferramentas e recursos OSINT gratuitos.</p>
+      </div>
+
+      <div class="sidebar-footer">
+          <p>Feedback e sugestões são bem-vindos!</p>
+          <a href="https://github.com/lockfale/osint-framework" target="_blank">GitHub</a> | 
+          <a href="https://twitter.com/jnordine" target="_blank">Twitter</a>
+      </div>
+    </div>
+
+    
+ <div class="details-panel">
+    <button id="close-details-btn">&times;</button>
+    <h2>Detalhes</h2>
+    <div id="details-content">
+      <p class="placeholder">Clique em um nó para ver os detalhes.</p>
+    </div>
+  </div>
+
+
+  <script src="js/arf.js"></script>
+
+    
+
+      <script src="https://d3js.org/d3.v3.min.js"></script>
     <script src="js/arf.js"></script>
   </body>
+  <div id="main-content">
+      </div>
 </html>
