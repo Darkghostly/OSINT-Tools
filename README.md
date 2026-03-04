@@ -1,41 +1,37 @@
-# OBLIVION OSINT
+# 🔍 OSINT-Tools | Digital Intelligence Hub
+> "In God we trust, all others we monitor."
 
-Uma versão personalizada e aprimorada do OSINT Framework, com uma interface moderna e interativa, focada em cibersegurança e investigações digitais.
+[![OSINT - Tools](https://img.shields.io/badge/OSINT-Arsenal-red?style=for-the-badge&logo=ghostery)](https://github.com/Darkghostly/OSINT-Tools)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/Darkghostly/OSINT-Tools/graphs/commit-activity)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-## Descrição
-
-Este framework foca em reunir informações de ferramentas e recursos gratuitos de OSINT (Open Source Intelligence). A intenção é ajudar pesquisadores, estudantes e entusiastas a encontrar as ferramentas certas para suas investigações de forma rápida e intuitiva.
-
----
-
-## Agradecimentos e Licença
-
-Este projeto é uma versão modificada e personalizada baseada no excelente **OSINT Framework** original, criado por **Justin Nordine (lockfale)**. Todo o crédito pela compilação inicial de dados e pela ideia original pertence a ele.
-
-* **Repositório Original:** [https://github.com/lockfale/osint-framework](https://github.com/lockfale/osint-framework)
-* **Site Original:** [http://osintframework.com](http://osintframework.com)
-
-Este trabalho derivado, assim como o original, é distribuído sob a **Licença MIT**. O arquivo `LICENSE` neste repositório contém o texto completo da licença e os devidos avisos de copyright.
+Este repositório é uma curadoria de ferramentas e recursos para **Open Source Intelligence (OSINT)**. Focado em investigadores, analistas de SOC, pentesters e entusiastas de privacidade que precisam de precisão e agilidade na coleta de dados.
 
 ---
 
-### Legenda
+## 🛠️ Categorias de Arsenal
 
-* **(T)** - Ferramenta que precisa ser instalada localmente.
-* **(D)** - Google Dork (técnica de busca avançada no Google).
-* **(R)** - Requer registro para uso.
-* **(M)** - URL que precisa ser editada manualmente com o termo da sua busca.
+| Categoria | Descrição | Status |
+| :--- | :--- | :---: |
+| **👤 User Investigation** | Rastreio de nicknames, perfis e pegada social. | `Ready` |
+| **🌐 Web Recon** | WHOIS, subdomínios, DNS e tecnologias de sites. | `Ready` |
+| **📧 Leak & Email** | Busca por bancos de dados vazados e verificação de e-mails. | `Stable` |
+| **📍 Geo-Loc** | Geolocalização via imagens, metadados e redes Wi-Fi. | `Active` |
+| **📱 Phone & Comms** | Identificação de operadoras e perfis vinculados a números. | `Updated` |
 
 ---
 
-### Para Notificações e Contato
+## 🗺️ Roadmap (Próximas Atualizações)
+[![OSINT Focus: Brazil](https://img.shields.io/badge/OSINT_Focus-Brazil-green?style=for-the-badge&logo=brazil)](#)
+- [ ] **Módulo OSINT-BR:** Inclusão de scripts e ferramentas focadas exclusivamente no ecossistema brasileiro.
+  - *Planejado:* Buscadores de CNPJ/CPF públicos, raspagem de diários oficiais, consultas em portais de transparência e rastreio de placas (Sinesp).
 
-Se você gostou do projeto e quer acompanhar futuras atualizações ou outros trabalhos meus:
+---
 
-* **GitHub:** Siga meu perfil ou marque este repositório com uma estrela! [https://github.com/Darkghostly](https://github.com/Darkghostly)
+## 🚀 Como Utilizar
 
-### Sugestões e Feedback
+Para clonar este arsenal e explorar as ferramentas:
 
-Encontrou um bug ou tem uma sugestão para uma nova ferramenta? Sinta-se à vontade para abrir uma "Issue" no repositório deste projeto no GitHub.
-
-* **Reportar um Problema ou Sugerir uma Ferramenta:** [https://github.com/Darkghostly/OSINT-Tools/issues](https://github.com/Darkghostly/OSINT-Tools/issues)
+```bash
+git clone [https://github.com/Darkghostly/OSINT-Tools.git](https://github.com/Darkghostly/OSINT-Tools.git)
+cd OSINT-Tools
